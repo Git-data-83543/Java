@@ -1,0 +1,24 @@
+package com.sunbeam;
+
+public class Fruit {
+	private String color;
+	private String name;
+	private Double weight;
+	
+	public Fruit() 
+	{
+		System.out.println("Fruit()");
+	}
+
+ public Fruit(String color, String name, Double weight) 
+    {
+		
+		this.color = color;
+		this.name = name;
+		this.weight = weight;
+	}
+	
+	
+	
+
+}

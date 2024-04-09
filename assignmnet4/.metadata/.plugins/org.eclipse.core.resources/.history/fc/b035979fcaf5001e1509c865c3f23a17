@@ -1,0 +1,23 @@
+package com.app.fruits;
+
+import java.util.Scanner;
+
+public class Apple extends Fruit{
+
+	public Apple() 
+	{
+	super("Apple","Red",true);
+		
+	}
+	public void accept(Scanner sc)
+	{
+		super.accept();
+	}
+@Override
+public String taste() {
+	
+	return "sweet n sour";
+}
+
+	
+}
