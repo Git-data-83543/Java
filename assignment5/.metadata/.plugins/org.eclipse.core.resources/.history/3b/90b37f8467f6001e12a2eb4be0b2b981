@@ -1,0 +1,21 @@
+package com.sunbeam;
+
+public class SalarisedEmployee extends Employee {
+       private int weeklysalary;
+
+	@Override
+	public void Salary() {
+		
+	}
+
+	public int getWeeklysalary() {
+		return weeklysalary;
+	}
+
+	public void setWeeklysalary(int weeklysalary) {
+		this.weeklysalary = weeklysalary;
+	}
+
+	
+
+}

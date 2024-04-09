@@ -1,0 +1,28 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class CommissionEmployee extends Employee {
+	
+	      private int sale;
+	      private double rate;
+
+	@Override
+	public void abstractData(Scanner sc) {
+		
+		
+	}
+
+	@Override
+	public void CalculateSalary() 
+	{
+		int totalsalary;
+		totalsalary=rate*sale;
+				
+	
+		
+	}
+
+	
+
+}

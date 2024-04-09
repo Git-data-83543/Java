@@ -1,0 +1,30 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class SalarisedEmployee extends Employee {
+       private int weeklysalary;
+
+	@Override
+	public void CalculateSalary()
+	{
+		getWeeklysalary();
+	}
+
+	public int getWeeklysalary() {
+		return weeklysalary;
+	}
+
+	public void setWeeklysalary(int weeklysalary) {
+		this.weeklysalary = weeklysalary;
+	}
+
+	@Override
+	public void abstractData(Scanner sc) {
+		
+		
+	}
+
+	
+
+}

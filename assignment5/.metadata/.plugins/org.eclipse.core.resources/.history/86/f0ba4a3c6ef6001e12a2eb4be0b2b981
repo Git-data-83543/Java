@@ -1,0 +1,29 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class BaseplusCommissionEmployee extends Employee 
+{
+	private int sale;
+	private double rate;
+	private double basesalary;
+
+	@Override
+	public void abstractData(Scanner sc) 
+	{
+	super.acceptData();
+	System.out.println("Enter weekly salary:");
+    
+		
+	}
+
+	@Override
+	public void CalculateSalary()
+	{
+		int totalsalary;
+		totalsalary=(int) ((rate*sale)+basesalary);
+	}
+
+	
+
+	}

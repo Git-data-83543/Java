@@ -1,0 +1,22 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Employee e=null;
+		e =new SalarisedEmployee();
+		e=new HourlyEmployee();
+		e=new CommissionEmployee();
+		e=new BaseplusCommissionEmployee();
+		
+		e,abstractData(sc);
+		e.displyData();
+		e.Salary();
+		
+
+	}
+
+}

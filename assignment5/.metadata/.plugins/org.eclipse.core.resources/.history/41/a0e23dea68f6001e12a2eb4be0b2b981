@@ -1,0 +1,46 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class HourlyEmployee extends Employee {
+
+	private int wage;
+	private int hours;
+
+	@Override
+	public void abstractData(Scanner sc) {
+
+	}
+
+	@Override
+	public void CalculateSalary()
+	{
+    int totalsalary=0;
+		if (hours <= 40) {
+			totalsalary=wage * hours;
+		} 
+		else if (hours > 40)
+		{
+			totalsalary=(int) (40 * wage + (hours - 40) * wage * 1.5);
+		}
+		
+
+	}
+
+	public int getWage() {
+		return wage;
+	}
+
+	public void setWage(int wage) {
+		this.wage = wage;
+	}
+
+	public int getHours() {
+		return hours;
+	}
+
+	public void setHours(int hours) {
+		this.hours = hours;
+	}
+
+}

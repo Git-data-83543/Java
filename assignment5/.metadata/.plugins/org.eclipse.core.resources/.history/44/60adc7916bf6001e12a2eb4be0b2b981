@@ -1,0 +1,8 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public interface Emoployeeinfo {
+	public abstract void abstractData(Scanner sc);
+
+}

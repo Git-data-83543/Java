@@ -1,0 +1,11 @@
+package com.sunbeam;
+
+public class CommissionEmployee extends Employee {
+
+	@Override
+	public void payrollcalculation() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
